@@ -1,0 +1,2 @@
+<!--components/yj-header/yj-header.wxml-->
+<view class="header">{{title}}</view>

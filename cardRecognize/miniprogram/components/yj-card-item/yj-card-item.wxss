@@ -1,0 +1,17 @@
+/* components/yj-card-item/yj-card-item.wxss */
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30rpx;
+}
+
+.item image {
+  width: 100rpx;
+  height: 75rpx;
+}
+
+.item view {
+  margin-top: 10rpx;
+  font-size: 40rpx;
+}

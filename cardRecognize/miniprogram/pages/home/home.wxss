@@ -1,0 +1,9 @@
+/* miniprogram/pages/home/home.wxss */
+.card {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  border-bottom: 2rpx solid #36ab60;
+  padding: 40rpx 0;
+}
