@@ -1,0 +1,9 @@
+<!--pages/home/childCmps/yj-card-category/yj-card-category.wxml-->
+<view class="card">
+  <block wx:for="{{cardItems}}" wx:key="unique">
+    <yj-card-item title="{{item.title}}" 
+                  iconPath="{{item.icon}}"
+                  bindtap="clickItem"
+                  data-index="{{index}}" />
+  </block>
+</view>

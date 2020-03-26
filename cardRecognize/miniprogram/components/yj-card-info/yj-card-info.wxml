@@ -1,0 +1,21 @@
+<!--components/yj-card-info/yj-card-info.wxml-->
+<view class="info">
+    <block wx:if="{{type == 0}}">
+      <view>姓名: {{ infos.name }}</view>
+      <view>出生: {{ infos.birth }}</view>
+      <view>性别: {{ infos.sex }}</view>
+      <view>地址: {{ infos.address }}</view>
+      <view>民族: {{ infos.nation }}</view>
+      <view>身份证: {{ infos.id }}</view>
+    </block>
+
+    <block wx:if="{{type == 1}}">
+      <view>卡号: {{ infos.id }}</view>
+      <view>卡类型: {{ infos.type }}</view>
+      <view>卡名字: {{ infos.cardName }}</view>
+      <view>银行信息: {{ infos.bankName }}</view>
+      <view>有效期: {{ infos.time }}</view>
+    </block>
+    
+    <image wx:if="{{infos.fileID && showImage}}" src="{{infos.fileID}}" />
+  </view>

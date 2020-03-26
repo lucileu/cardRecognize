@@ -1,7 +1,13 @@
 <!--miniprogram/pages/home/home.wxml-->
 <yj-header title="我的卡证" />
-<view class="card">
-  <block wx:for="{{cardItems}}" wx:key="uniqul">
-    <yj-card-item title="{{item.title}}" iconPath="{{item.icon}}" />
-  </block>
-</view>
+
+<yj-card-category cardItems="{{ cardItems }}" />
+
+<picker class="addCard" 
+        range="{{cardItems}}" 
+        range-key="title"
+        bindchange="slectedCard">
+  <yj-tool-bar  title="添加卡证"           
+                iconPath="/assets/add.png" />
+</picker>
+

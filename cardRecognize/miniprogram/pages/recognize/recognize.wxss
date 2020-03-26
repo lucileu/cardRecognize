@@ -1,0 +1,5 @@
+/* pages/recognize/recognize.wxss */
+.selectBar {
+  margin-top: 50rpx !important;
+}
+

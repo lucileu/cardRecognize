@@ -1,0 +1,5 @@
+/* pages/cardlist/cardlist.wxss */
+.header-right {
+  display: flex;
+  align-items: center;
+}

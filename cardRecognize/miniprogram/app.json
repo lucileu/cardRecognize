@@ -1,7 +1,9 @@
 {
   "pages": [
     "pages/home/home",
-    "pages/profile/profile"
+    "pages/profile/profile",
+    "pages/recognize/recognize",
+    "pages/cardlist/cardlist"
   ],
   "tabBar": {
     "list": [
@@ -21,7 +23,10 @@
   },
 
   "usingComponents": {
-    "yj-header": "/components/yj-header/yj-header"
+    "yj-header": "/components/yj-header/yj-header",
+    "yj-tool-bar": "/components/yj-tool-bar/yj-tool-bar",
+    "yj-card-info": "/components/yj-card-info/yj-card-info",
+    "yj-operate-bar": "/components/yj-operate-bar/yj-operate-bar"
   },
 
   "window": {

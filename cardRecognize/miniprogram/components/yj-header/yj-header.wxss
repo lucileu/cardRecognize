@@ -6,4 +6,13 @@
   border-left: 6rpx solid #48a848;
   padding-left: 10rpx;
   font-size: 34rpx;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.right-slot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

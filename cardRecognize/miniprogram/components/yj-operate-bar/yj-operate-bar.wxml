@@ -1,0 +1,8 @@
+<!--components/yj-operate-bar/yj-operate-bar.wxml-->
+<view class="operation-btn" 
+      style="background: {{bgColor}}"
+      hover-class="hover"
+      hover-stay-time="50">
+  <image src="{{iconPath}}"/>
+  <text>{{title}}</text>
+</view>

@@ -1,5 +1,6 @@
 {
   "usingComponents": {
-    "yj-card-item": "/components/yj-card-item/yj-card-item"
-  }
+    "yj-card-category": "./childCmps/yj-card-category/yj-card-category"
+  },
+  "navigationBarTitleText": "我的卡证"
 }

@@ -1,0 +1,8 @@
+<!--components/yj-tool-bar/yj-tool-bar.wxml-->
+<view class="toolBar my-class" 
+      style="background: {{ bgColor }}" 
+      hover-class="hover" 
+      hover-stay-time="50">
+  <image src="{{ iconPath }}" />
+  <text>{{ title }}</text>
+</view>

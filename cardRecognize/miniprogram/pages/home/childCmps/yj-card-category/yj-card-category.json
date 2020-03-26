@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "yj-card-item": "/components/yj-card-item/yj-card-item"
+  }
+}

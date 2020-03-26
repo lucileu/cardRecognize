@@ -1,2 +1,8 @@
 <!--components/yj-header/yj-header.wxml-->
-<view class="header">{{title}}</view>
+<view class="header">
+  <view >{{title}}</view>
+  <view class="right-slot">
+    <slot/>
+  </view>
+</view>
+

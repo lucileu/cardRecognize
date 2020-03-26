@@ -1,0 +1,19 @@
+<!--pages/cardlist/cardlist.wxml-->
+<block wx:for="{{lists}}" wx:key="index">
+  <yj-header title="{{cardName}}{{index + 1}}信息">
+    <view class="header-right">
+      <yj-operate-bar title="复制"
+                      iconPath="/assets/copy.png"
+                      bindtap="clickCopy"
+                      data-index="{{index}}"/>
+      <yj-operate-bar title="删除"
+                      iconPath="/assets/delete.png"
+                      bgColor="#555"
+                      bindtap="clickDelete"
+                      data-index="{{index}}"/>
+    </view>
+  </yj-header>
+  <yj-card-info infos="{{item}}"
+                type="{{type}}"
+                showImage="{{false}}" />
+</block>

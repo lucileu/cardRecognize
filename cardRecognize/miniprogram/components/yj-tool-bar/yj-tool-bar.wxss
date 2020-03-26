@@ -1,0 +1,33 @@
+/* components/yj-tool-bar/yj-tool-bar.wxss */
+.toolBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* text-align: center;
+  font-size: 0;
+  line-height: 88rpx; */
+
+  margin: 0 60rpx;
+  border-radius: 10rpx;
+  height: 88rpx;
+}
+
+.toolBar image {
+  width: 60rpx;
+  height: 60rpx;
+
+  /* vertical-align: middle; */
+}
+
+.toolBar text {
+  margin-left: 30rpx;
+  color: #fff;
+  font-size: 36rpx;
+  
+  /* vertical-align: middle; */
+}
+
+.hover {
+  opacity: .8;
+}
