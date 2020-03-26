@@ -11,8 +11,8 @@ exports.main = async (event, context) => {
   const fileUrl = event.fileUrl;
   const cardType = event.cardType;
   let AppId = '1301670254'; // 腾讯云 AppId
-  let SecretId = 'AKIDgASXNyBQHvKWTAjx1rVv98uVv62ikgwy'; // 腾讯云 SecretId
-  let SecretKey = '0vlv26GLJJDRXo7nNLGONDvVzMdmg1HP'; // 腾讯云 SecretKey
+  let SecretId = 'AKIDSgplSuGH8k6FBsLnBPQCLHyRt78wGt2x'; // 腾讯云 SecretId
+  let SecretKey = 'ujKkwtc8QSUJxTkntnKjuufBallW2MTT'; // 腾讯云 SecretKey
 
   let imgClient = new ImageClient({ AppId, SecretId, SecretKey });
 

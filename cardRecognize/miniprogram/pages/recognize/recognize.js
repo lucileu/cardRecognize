@@ -9,7 +9,6 @@ Page({
     categories: ["身份证", "银行卡"],
     infos: null,
     cardsCollection: null,
-    lists:[]
   },
 
   /**
@@ -102,7 +101,15 @@ Page({
       })
       return;
     }
-    
+
+    let objs = []
+    res.result.forEach((item, index) => {
+      let obj = {}
+      obj[item.item] = item.itemstring
+      objs.push(obj)
+    })
+    console.log(objs)
+
     this.setData({
       infos: {
         id: res.result[0].itemstring,

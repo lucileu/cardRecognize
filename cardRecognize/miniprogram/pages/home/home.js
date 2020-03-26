@@ -14,7 +14,8 @@ Page({
         title: "银行卡",
         icon: "/assets/yhk.png"
       },
-    ]
+    ],
+    price: 56.666
   },
 
   /**

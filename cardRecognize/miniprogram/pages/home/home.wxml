@@ -11,3 +11,6 @@
                 iconPath="/assets/add.png" />
 </picker>
 
+<wxs src="../../wxs/format.wxs" module="format"/>
+<view>{{format.priceFormat(price)}}</view>
+

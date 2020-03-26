@@ -8,10 +8,6 @@ Component({
       type: Object,
       value: {}
     },
-    lists: {
-      type: Array,
-      value: [],
-    },
     type: {
       type: String,
       value: ""
